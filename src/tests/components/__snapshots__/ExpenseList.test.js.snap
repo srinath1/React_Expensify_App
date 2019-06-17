@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renderer correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <h1>
+        Expense List
+    </h1>
+    <ExpenseListItem
+        amount={195}
+        createdAt={0}
+        description="Gum"
+        id="1"
+        note=""
+    />
+    <ExpenseListItem
+        amount={109500}
+        createdAt={-345600000}
+        description="Rent"
+        id="2"
+        note=""
+    />
+    <ExpenseListItem
+        amount={4500}
+        createdAt={345600000}
+        description="Credit Card"
+        id="3"
+        note=""
+    />
+</div>,
+  "nodes": Array [
+    <div>
+      <h1>
+            Expense List
+      </h1>
+      <ExpenseListItem
+            amount={195}
+            createdAt={0}
+            description="Gum"
+            id="1"
+            note=""
+      />
+      <ExpenseListItem
+            amount={109500}
+            createdAt={-345600000}
+            description="Rent"
+            id="2"
+            note=""
+      />
+      <ExpenseListItem
+            amount={4500}
+            createdAt={345600000}
+            description="Credit Card"
+            id="3"
+            note=""
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <ExpenseList
+      expenses={
+            Array [
+                  Object {
+                    "amount": 195,
+                    "createdAt": 0,
+                    "description": "Gum",
+                    "id": "1",
+                    "note": "",
+                  },
+                  Object {
+                    "amount": 109500,
+                    "createdAt": -345600000,
+                    "description": "Rent",
+                    "id": "2",
+                    "note": "",
+                  },
+                  Object {
+                    "amount": 4500,
+                    "createdAt": 345600000,
+                    "description": "Credit Card",
+                    "id": "3",
+                    "note": "",
+                  },
+                ]
+      }
+/>,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div>
+      <h1>
+            Expense List
+      </h1>
+      <ExpenseListItem
+            amount={195}
+            createdAt={0}
+            description="Gum"
+            id="1"
+            note=""
+      />
+      <ExpenseListItem
+            amount={109500}
+            createdAt={-345600000}
+            description="Rent"
+            id="2"
+            note=""
+      />
+      <ExpenseListItem
+            amount={4500}
+            createdAt={345600000}
+            description="Credit Card"
+            id="3"
+            note=""
+      />
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ExpenseList
+    expenses={
+        Array [
+            Object {
+              "amount": 195,
+              "createdAt": 0,
+              "description": "Gum",
+              "id": "1",
+              "note": "",
+            },
+            Object {
+              "amount": 109500,
+              "createdAt": -345600000,
+              "description": "Rent",
+              "id": "2",
+              "note": "",
+            },
+            Object {
+              "amount": 4500,
+              "createdAt": 345600000,
+              "description": "Credit Card",
+              "id": "3",
+              "note": "",
+            },
+          ]
+    }
+/>,
+}
+`;
+
+exports[`testing with a empty array 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <h1>
+        Expense List
+    </h1>
+    <p>
+        No Expenses
+    </p>
+</div>,
+  "nodes": Array [
+    <div>
+      <h1>
+            Expense List
+      </h1>
+      <p>
+            No Expenses
+      </p>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <ExpenseList
+      expenses={Array []}
+/>,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div>
+      <h1>
+            Expense List
+      </h1>
+      <p>
+            No Expenses
+      </p>
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ExpenseList
+    expenses={Array []}
+/>,
+}
+`;
